@@ -1,0 +1,363 @@
+{
+  "header": {
+    "write": {
+      "title": "Écrire"
+    },
+    "cards": {
+      "title": "Fiches"
+    },
+    "settings": {
+      "title": "Paramètres"
+    },
+    "export": {
+      "title": "Exporter"
+    },
+    "cloud": {
+      "title": "Cloud"
+    }
+  },
+  "common": {
+    "no-project-selected": "Aucun projet sélectionné",
+    "update-toast": "Nouvelle mise à jour installée.<br>Cliquez ici pour redémarrer le logiciel.",
+    "update": {
+      "title": "Mettre à jour❗"
+    },
+    "modals": {
+      "newBackup": {
+        "header": "Synchroniser dans le cloud",
+        "subtitle": "Nous avons trouvé des données plus récentes dans le cloud.",
+        "warning": "Tout ce qui n'aura pas été sauvegardé dans le cloud depuis cet appareil sera perdu."
+      }
+    }
+  },
+  "write": {
+    "quote": {
+      "marks": "'« ' ' »' '"' '"'"
+    },
+    "toolbar": {
+      "words": "mots",
+      "chars": "caractères",
+      "undo": "Annuler",
+      "redo": "Refaire",
+      "save": "Enregistrer",
+      "focus": "Concentration",
+      "bold": "Gras",
+      "italic": "Italique",
+      "underline": "Souligné",
+      "switchScene": "Changer de scène",
+      "cards": "Fiches",
+      "cardsEmpty": "Aucune fiche trouvée dans cette scène.",
+      "savestate": "Enregistrer l'état",
+    },
+    "editor": {
+      "placeholder": "Allez ! Écrivons une belle histoire !",
+      "switch": "Changer de bloc",
+      "delete": "Effacer",
+      "confirmDelete": "Voulez-vous vraiment effacer tout ça ?",
+      "blocks": {
+        "paragraph": "Paragraphe",
+        "heading": "Entête",
+        "quote": "Citation",
+        "code": "Mode machine à écrire"
+      }
+    },
+    "overview": {
+      "opened": "ouvert",
+      "placeholder": "Pas encore de scène dans ce projet."
+    }
+  },
+  "cloud": {
+    "confirm": {
+      "text": "Votre compte n'a pas encore été vérifié ! Cliquez ici pour le faire.",
+      "success": "Un courriel de confirmation vient de partir."
+    },
+    "login": {
+      "title": "S'identifier",
+      "email": "Adresse de courriel",
+      "password": "Mot de passe",
+      "button": "S'identifier",
+      "register": "Vous n'avez pas encore de compte ?",
+      "responses": {
+        "failed": "Échec de l'identification.",
+        "empty": "Les données d'identification ne peuvent pas être vides."
+      }
+    },
+    "register": {
+      "title": "S'enregistrer",
+      "name": "Nom",
+      "button": "S'enregistrer",
+      "login": "Avez-vous déjà un compte ?",
+      "responses": {
+        "success": "Compte créé !",
+        "failed": "Échec de l'enregistrement.",
+        "empty": "Les champs ne peuvent pas être vides."
+      }
+    },
+    "reset": {
+      "title": "Mot de passe oublié ?",
+      "button": "Réinitialiser votre mot de passe",
+      "success": "Merci de vérifier votre courriel. Vous y trouverez d'autres instructions.",
+      "login": "Connectez-vous ici."
+    },
+    "privacy": {
+      "show": "Votre vie privée nous importe."
+    },
+    "profile": {
+      "title": "Identité",
+      "name": {
+        "title": "Mettre à jour votre nom",
+        "success": "Votre nom a été mis à jour !",
+        "fields": {
+          "name": "Nom"
+        }
+      },
+      "email": {
+        "title": "Mettre à jour votre adresse de courriel",
+        "success": "votre adresse mise a été mise à jour !",
+        "fields": {
+          "email": "Adresse de courriel",
+          "password": "Mot de passe"
+        }
+      },
+      "password": {
+        "title": "Mettre à jour votre mot de passe",
+        "success": "Votre mot de passe a été mis à jour !",
+        "match": "Les mots de passe doivent coïncider !",
+        "fields": {
+          "old": "Mot de passe actuel",
+          "new": "Nouveau mot de passe",
+          "confirm": "Confirmez le mot de passe"
+        }
+      },
+      "error": "Quelque chose s'est mal passé :(",
+      "action": "Mettre à jour"
+    },
+    "logout": {
+      "title": "Se déconnecter",
+      "success": "Déconnexion réussie. Redirection en cours."
+    },
+    "backups": {
+      "title": "Sauvegardes",
+      "migrating": "Migration de sauvegarde"
+    },
+    "toast": {
+      "savedCloud": "Enregistrer dans le cloud.",
+      "loginSuccessful": "Connexion réussie !"
+    },
+    "security": {
+      "title": "Sécurité",
+      "devices": {
+        "title": "Appareils",
+        "os": "Système d'exploitation",
+        "country": "Pays",
+        "ip": "Adresse IP"
+      },
+      "logs": {
+        "title": "Suivis d'activité",
+        "timestamp": "Date et heure",
+        "age": "Ancienneté",
+        "event": "Événement",
+        "account": {
+          "update": {
+            "email": "Adresse de courriel mise à jour",
+            "name": "Nom modifié"
+          },
+          "create": "Compte créé",
+          "recovery": {
+            "create": "Demande de récupération de mot de passe",
+            "update": "Récupération de mot de passe terminée."
+          },
+          "sessions": {
+            "create": "Identifiant",
+            "delete": "Se déconnecter"
+          },
+          "verification": {
+            "create": "Demande de confirmation de compte",
+            "update": "Confirmation de compte terminée"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "title": "Fiches",
+    "search": "rechercher ici...",
+    "modal": {
+      "newHeader": "Nouvelle fiche",
+      "editHeader": "Mettre à jour",
+      "title": "Titre",
+      "content": "Contenu",
+      "buttonCreate": "Créer",
+      "buttonSave": "Enregistrer",
+      "buttonDelete": "Effacer",
+      "confirmDelete": "Voulez-vous vraiment effacer cette fiche ?",
+      "showInScenes": "Montrer dans les scènes",
+      "helper": {
+        "title": "personnage, localisation, objet ...",
+        "tooltip": "Montrer une astuce dans l'éditeur"
+      },
+      "placeholder": {
+        "title": "Saisissez votre titre"
+      }
+    }
+  },
+  "export": {
+    "title": "Titre",
+    "publisher": "Éditeur⋅e",
+    "author": "Auteur⋅e",
+    "language": "Langue",
+    "description": "Description",
+    "cover": "Couverture",
+    "action": {
+      "choose": "Choisir",
+      "export": "Exporter"
+    },
+    "form": "Merci de remplir tous les champs.",
+    "template": "Modèle",
+    "templates": "Modèles",
+    "progress": "Export en cours",
+    "helpers": {
+      "title": "Titre du livre",
+      "author": "Auteur⋅e du livre",
+      "publisher": "Votre éditeur⋅e pour ce livre",
+      "language": "La langue du livre",
+      "description": "Courte description du livre (par exemple la future quatrième de couverture)",
+      "cover": "La couverture du livre"
+    },
+    "cloud": {
+      "title": "EPUB",
+      "subtitle": "Une connexion Internet est nécessaire pour ça."
+    },
+    "rtf": {
+      "title": "RTF",
+      "subtitle": "Export au format de fichier RTF",
+      "explain": "Génère un document au format Rich Text compatible avec la plupart des logiciels de traitement de texte."
+    },
+    "markdown": {
+      "title": "Markdown",
+      "subtitle": "Exporter au format Markdown",
+      "explain": "Génère un document au format Markdown compatible avec la plupart des systèmes de blog."
+    },
+    "finished": {
+      "download": "Télécharger le résultat"
+    }
+  },
+  "sidebar": {
+    "createScene": "Nouvelle scène",
+    "createChapter": "Nouveau chapitre",
+    "editOrder": "Modifier l'ordre",
+    "editProject": "Modifier le projet",
+    "editChapter": "Modifier le chapitre",
+    "editScene": "Modifier la scène",
+    "placeholderChapters": "Cliquez ici pour démarrer votre premier chapitre.",
+    "delete": {
+      "chapter": "Voulez-vous vraiment effacer ce chapitre ?",
+      "scene": "Voulez vous vraiment effacer cette scène ?"
+    },
+    "modal": {
+      "title": "Titre",
+      "newChapter": {
+        "header": "Nouveau chapitre",
+        "button": "Créer un chapitre"
+      },
+      "newScene": {
+        "header": "Nouvelle scène",
+        "button": "Créer une scène"
+      },
+      "edit": {
+        "order": "Ordonner les scènes",
+        "buttonSave": "Enregistrer",
+        "buttonDelete": "Effacer"
+      }
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "thirdparty": "Licences de tiers",
+    "appereance": {
+      "title": "Aspect",
+      "theme": {
+        "title": "Thème",
+        "dark": "Sombre",
+        "light": "Clair"
+      },
+      "language": {
+        "title": "Langue",
+        "en": "Anglais",
+        "de": "Allemand",
+        "es": "Espagnol",
+        "fr": "Français",
+        "fi": "Finnois",
+        "it": "Italien",
+        "nl": "Néerlandais",
+        "pt": "Portugais",
+        "ru": "Russe",
+        "tr": "Turc",
+        "ja": "Japonais",
+        "sv": "Suédois",
+        "ur": "Ourdou",
+        "zh_hans": "Chinois simplifié",
+        "zh_hant": "Chinois traditionnel"
+      }
+    },
+    "common": {
+      "title": "Commun",
+      "lastLocation": "Mémoriser"
+    },
+    "write": {
+      "autosave": "Enregistrement automatique",
+      "spellCheck": "Correcteur orthographique",
+      "fontsize": "Taille des caractères"
+    },
+    "helpers": {
+      "autosave": "Enregistre automatiquement votre projet à intervalles réguliers",
+      "spellCheck": "Actuellement en version de test !",
+      "fontsize": "Changer la taille des caractères dans la fenêtre d'édition",
+      "lastLocation": "Ouvrir à nouveau la dernière page fermée"
+    }
+  },
+  "install": {
+    "language": "Choisissez une langue",
+    "action": "Allez !",
+    "disclaimer": {
+      "action": "J'accepte les conditions d'utilisation",
+      "title": "Décharge",
+      "show": "Voir la décharge de responsabilité",
+      "content": "Dernière mise à jour : 27 juin 2022<br><br>L'information fournie par OmniaWrite sur notre application est une information d'ordre général.<br>Toute information fournie sur votre application web ou mobile est donnée de bonne foi, toutefois nous ne donnons aucune garantie d'aucune sorte, explicite ou implicite, quant à l'adéquation, la qualité, la disponibilité, l'efficacité, la pertinence de l'information fournie par l'application.<br>En aucune façon notre responsabilité ne pourra être recherchée en cas de perte ou de dégradation de vos données.<br>Vous utilisez l'application à vos risques et périls et nous vous encourageons à faire des sauvegardes régulières de votre travail."
+    }
+  },
+  "overview": {
+    "project": {
+      "title": "Titre",
+      "chapters": "Chapitres",
+      "scenes": "Scènes",
+      "words": "Mots",
+      "characters": "Caractères",
+      "save": "Enregistrer",
+      "delete": "Effacer",
+      "confirmDelete": "Voulez-vous vraiment effacer ce projet ?"
+    },
+    "projects": {
+      "title": "Projets",
+      "opened": "ouvert"
+    },
+    "modals": {
+      "newProject": {
+        "header": "Nouveau Projet",
+        "title": "Titre",
+        "button": "Créer !"
+      }
+    }
+  },
+  "feedback": {
+    "title": "Demande d'aide et retour d'expérience",
+    "sub": "Vos retours d'expérience, y compris les signalements d'erreurs, suggestion d'amélioration, demandes de nouvelles fonctionnalités et plus généralement tout ce que vous pouvez avoir envie de dire feront l'objet d'une lecture attentive.",
+    "email": "Adresse de courriel",
+    "description": "Description",
+    "action": "Envoyer",
+    "success": "Message envoyé !"
+  },
+  "placeholder": {
+    "title": "Saisissez votre titre"
+  }
+}
