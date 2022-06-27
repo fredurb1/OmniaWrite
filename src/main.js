@@ -8,6 +8,7 @@ import "./css/index.scss";
 
 register("en", () => import(/* webpackChunkName: "en" */ "./lang/en.json"));
 register("de", () => import(/* webpackChunkName: "de" */ "./lang/de.json"));
+register("fr", () => import(/* webpackChunkName: "ru" */ "./lang/fr.json"));
 register("it", () => import(/* webpackChunkName: "it" */ "./lang/it.json"));
 register("es", () => import(/* webpackChunkName: "es" */ "./lang/es.json"));
 register("fi", () => import(/* webpackChunkName: "fi" */ "./lang/fi.json"));
